@@ -1,0 +1,25 @@
+header#main-header {
+    position: relative;
+    text-align: left;
+    background-image: url('/img/man-1.jpg');
+    background-position: center;
+    height: 100vh;
+    background-size: 100%;
+}
+
+header#main-header div#header-kontener {
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding-left: 20px;
+    font-family: 'VERDANA', sans-serif;
+    transform: translateY(-50%);
+}
+
+header#main-header h2.main-header-text {
+    font-size: 35px;
+}
+
+header#main-header h3.main-header-text {
+    font-size: 25px;
+}
